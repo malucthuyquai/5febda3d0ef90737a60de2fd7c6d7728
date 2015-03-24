@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>chaytron_0000000.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000001.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000002.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000003.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000004.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000005.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 0}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000006.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 145}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000007.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 145}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000008.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 145}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000009.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 145}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000010.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 145}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000011.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 20}, {336, 141}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -10}</string>
+			<key>spriteSize</key>
+			<string>{336, 141}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 145}, {336, 141}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000012.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 22}, {336, 139}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -11}</string>
+			<key>spriteSize</key>
+			<string>{336, 139}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 290}, {336, 139}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000013.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 290}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000014.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 14}, {336, 147}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -7}</string>
+			<key>spriteSize</key>
+			<string>{336, 147}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 290}, {336, 147}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000015.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 16}, {336, 145}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -8}</string>
+			<key>spriteSize</key>
+			<string>{336, 145}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 290}, {336, 145}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000016.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 290}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000017.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 290}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000018.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000019.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000020.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000021.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000022.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000023.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 439}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000024.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000025.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000026.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000027.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000028.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000029.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 584}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000030.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000031.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000032.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000033.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1014, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000034.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1352, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000035.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{1690, 729}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000036.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 874}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000037.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{338, 874}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>chaytron_0000038.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{40, 18}, {336, 143}}</string>
+			<key>spriteOffset</key>
+			<string>{20, -9}</string>
+			<key>spriteSize</key>
+			<string>{336, 143}</string>
+			<key>spriteSourceSize</key>
+			<string>{376, 161}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{676, 874}, {336, 143}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.6.0</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{2048, 1024}</string>
+		<key>name</key>
+		<string>Untitled</string>
+		<key>textureFileName</key>
+		<string>chaytron.png.ccz</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

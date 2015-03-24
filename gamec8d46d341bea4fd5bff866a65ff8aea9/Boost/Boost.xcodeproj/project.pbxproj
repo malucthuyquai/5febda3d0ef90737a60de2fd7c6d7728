@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A4A882B19976CA500A468EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A882A19976CA500A468EF /* Foundation.framework */; };
+		9A4A882D19976CA500A468EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A882C19976CA500A468EF /* CoreGraphics.framework */; };
+		9A4A882F19976CA500A468EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A882E19976CA500A468EF /* UIKit.framework */; };
+		9A4A883519976CA500A468EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A883319976CA500A468EF /* InfoPlist.strings */; };
+		9A4A883719976CA500A468EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A883619976CA500A468EF /* main.m */; };
+		9A4A883B19976CA500A468EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A883A19976CA500A468EF /* AppDelegate.m */; };
+		9A4A883E19976CA500A468EF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A883C19976CA500A468EF /* Main_iPhone.storyboard */; };
+		9A4A884119976CA500A468EF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A883F19976CA500A468EF /* Main_iPad.storyboard */; };
+		9A4A884419976CA500A468EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A884319976CA500A468EF /* ViewController.m */; };
+		9A4A884619976CA500A468EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A884519976CA500A468EF /* Images.xcassets */; };
+		9A4A884D19976CA500A468EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A884C19976CA500A468EF /* XCTest.framework */; };
+		9A4A884E19976CA500A468EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A882A19976CA500A468EF /* Foundation.framework */; };
+		9A4A884F19976CA500A468EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A882E19976CA500A468EF /* UIKit.framework */; };
+		9A4A885719976CA500A468EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A4A885519976CA500A468EF /* InfoPlist.strings */; };
+		9A4A885919976CA500A468EF /* BoostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A885819976CA500A468EF /* BoostTests.m */; };
+		9A4A887719976D2E00A468EF /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886419976D2E00A468EF /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887819976D2E00A468EF /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886719976D2E00A468EF /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887919976D2E00A468EF /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886919976D2E00A468EF /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887A19976D2E00A468EF /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886B19976D2E00A468EF /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887B19976D2E00A468EF /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886D19976D2E00A468EF /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887C19976D2E00A468EF /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886F19976D2E00A468EF /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887D19976D2E00A468EF /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A887319976D2E00A468EF /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A887E19976D2E00A468EF /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A887519976D2E00A468EF /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A4A888019976DA200A468EF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A887F19976DA200A468EF /* CFNetwork.framework */; };
+		9A4A888219976DAC00A468EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A888119976DAC00A468EF /* SystemConfiguration.framework */; };
+		9A4A888419976DBA00A468EF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A888319976DBA00A468EF /* MobileCoreServices.framework */; };
+		9A4A888619976DC600A468EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A888519976DC600A468EF /* libz.dylib */; };
+		9A4A888919976E4300A468EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A888819976E4300A468EF /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC5B19A98DC200016504 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC5A19A98DC200016504 /* Cocoa.framework */; };
+		9AA5FC6519A98DC200016504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5FC6319A98DC200016504 /* InfoPlist.strings */; };
+		9AA5FC6719A98DC200016504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5FC6619A98DC200016504 /* main.m */; };
+		9AA5FC6B19A98DC200016504 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5FC6919A98DC200016504 /* Credits.rtf */; };
+		9AA5FC6E19A98DC200016504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5FC6D19A98DC200016504 /* AppDelegate.m */; };
+		9AA5FC7119A98DC200016504 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5FC6F19A98DC200016504 /* MainMenu.xib */; };
+		9AA5FC7319A98DC200016504 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5FC7219A98DC200016504 /* Images.xcassets */; };
+		9AA5FC7919A98DC200016504 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4A884C19976CA500A468EF /* XCTest.framework */; };
+		9AA5FC7A19A98DC200016504 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC5A19A98DC200016504 /* Cocoa.framework */; };
+		9AA5FC8219A98DC200016504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AA5FC8019A98DC200016504 /* InfoPlist.strings */; };
+		9AA5FC8419A98DC200016504 /* BoostMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5FC8319A98DC200016504 /* BoostMacTests.m */; };
+		9AA5FC8D19A98EA700016504 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886719976D2E00A468EF /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC8E19A98EA700016504 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886919976D2E00A468EF /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC8F19A98EA700016504 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886B19976D2E00A468EF /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC9019A98EA700016504 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886D19976D2E00A468EF /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC9219A98F1600016504 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A886F19976D2E00A468EF /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC9319A98F1600016504 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A887319976D2E00A468EF /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC9419A98F1600016504 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A887519976D2E00A468EF /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9AA5FC9619A98F9D00016504 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC9519A98F9D00016504 /* libz.dylib */; };
+		9AA5FC9819A98FA800016504 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC9719A98FA800016504 /* SystemConfiguration.framework */; };
+		9AA5FC9A19A98FAF00016504 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC9919A98FAF00016504 /* CFNetwork.framework */; };
+		9AA5FC9C19A98FC000016504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC9B19A98FC000016504 /* CoreGraphics.framework */; };
+		9AA5FC9E19A98FCD00016504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5FC9D19A98FCD00016504 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A4A885019976CA500A468EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A4A881F19976CA500A468EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A4A882619976CA500A468EF;
+			remoteInfo = Boost;
+		};
+		9AA5FC7B19A98DC200016504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A4A881F19976CA500A468EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA5FC5819A98DC200016504;
+			remoteInfo = BoostMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A4A882719976CA500A468EF /* Boost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A882A19976CA500A468EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A4A882C19976CA500A468EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A4A882E19976CA500A468EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A4A883219976CA500A468EF /* Boost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boost-Info.plist"; sourceTree = "<group>"; };
+		9A4A883419976CA500A468EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A4A883619976CA500A468EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A4A883819976CA500A468EF /* Boost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boost-Prefix.pch"; sourceTree = "<group>"; };
+		9A4A883919976CA500A468EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A4A883A19976CA500A468EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A4A883D19976CA500A468EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9A4A884019976CA500A468EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9A4A884219976CA500A468EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A4A884319976CA500A468EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A4A884519976CA500A468EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A4A884B19976CA500A468EF /* BoostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4A884C19976CA500A468EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A4A885419976CA500A468EF /* BoostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoostTests-Info.plist"; sourceTree = "<group>"; };
+		9A4A885619976CA500A468EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A4A885819976CA500A468EF /* BoostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoostTests.m; sourceTree = "<group>"; };
+		9A4A886319976D2E00A468EF /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		9A4A886419976D2E00A468EF /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		9A4A886519976D2E00A468EF /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		9A4A886619976D2E00A468EF /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		9A4A886719976D2E00A468EF /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		9A4A886819976D2E00A468EF /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		9A4A886919976D2E00A468EF /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		9A4A886A19976D2E00A468EF /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		9A4A886B19976D2E00A468EF /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		9A4A886C19976D2E00A468EF /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		9A4A886D19976D2E00A468EF /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		9A4A886E19976D2E00A468EF /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		9A4A886F19976D2E00A468EF /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		9A4A887019976D2E00A468EF /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		9A4A887119976D2E00A468EF /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		9A4A887219976D2E00A468EF /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		9A4A887319976D2E00A468EF /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		9A4A887419976D2E00A468EF /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		9A4A887519976D2E00A468EF /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		9A4A887619976D2E00A468EF /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		9A4A887F19976DA200A468EF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9A4A888119976DAC00A468EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A4A888319976DBA00A468EF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9A4A888519976DC600A468EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9A4A888719976E4300A468EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9A4A888819976E4300A468EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9AA5FC5919A98DC200016504 /* BoostMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoostMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA5FC5A19A98DC200016504 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		9AA5FC5D19A98DC200016504 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9AA5FC5E19A98DC200016504 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9AA5FC5F19A98DC200016504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AA5FC6219A98DC200016504 /* BoostMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoostMac-Info.plist"; sourceTree = "<group>"; };
+		9AA5FC6419A98DC200016504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AA5FC6619A98DC200016504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AA5FC6819A98DC200016504 /* BoostMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoostMac-Prefix.pch"; sourceTree = "<group>"; };
+		9AA5FC6A19A98DC200016504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9AA5FC6C19A98DC200016504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AA5FC6D19A98DC200016504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AA5FC7019A98DC200016504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9AA5FC7219A98DC200016504 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AA5FC7819A98DC200016504 /* BoostMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA5FC7F19A98DC200016504 /* BoostMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoostMacTests-Info.plist"; sourceTree = "<group>"; };
+		9AA5FC8119A98DC200016504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AA5FC8319A98DC200016504 /* BoostMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoostMacTests.m; sourceTree = "<group>"; };
+		9AA5FC9519A98F9D00016504 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		9AA5FC9719A98FA800016504 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9AA5FC9919A98FAF00016504 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9AA5FC9B19A98FC000016504 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9AA5FC9D19A98FCD00016504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A4A882419976CA500A468EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A888619976DC600A468EF /* libz.dylib in Frameworks */,
+				9A4A882D19976CA500A468EF /* CoreGraphics.framework in Frameworks */,
+				9A4A888419976DBA00A468EF /* MobileCoreServices.framework in Frameworks */,
+				9A4A888219976DAC00A468EF /* SystemConfiguration.framework in Frameworks */,
+				9A4A888019976DA200A468EF /* CFNetwork.framework in Frameworks */,
+				9A4A882F19976CA500A468EF /* UIKit.framework in Frameworks */,
+				9A4A882B19976CA500A468EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A884819976CA500A468EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A884D19976CA500A468EF /* XCTest.framework in Frameworks */,
+				9A4A884F19976CA500A468EF /* UIKit.framework in Frameworks */,
+				9A4A884E19976CA500A468EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC5619A98DC200016504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC9E19A98FCD00016504 /* Foundation.framework in Frameworks */,
+				9AA5FC9C19A98FC000016504 /* CoreGraphics.framework in Frameworks */,
+				9AA5FC9A19A98FAF00016504 /* CFNetwork.framework in Frameworks */,
+				9AA5FC9819A98FA800016504 /* SystemConfiguration.framework in Frameworks */,
+				9AA5FC9619A98F9D00016504 /* libz.dylib in Frameworks */,
+				9AA5FC5B19A98DC200016504 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC7519A98DC200016504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC7A19A98DC200016504 /* Cocoa.framework in Frameworks */,
+				9AA5FC7919A98DC200016504 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4A881E19976CA500A468EF = {
+			isa = PBXGroup;
+			children = (
+				9A4A883019976CA500A468EF /* Boost */,
+				9A4A885219976CA500A468EF /* BoostTests */,
+				9AA5FC6019A98DC200016504 /* BoostMac */,
+				9AA5FC7D19A98DC200016504 /* BoostMacTests */,
+				9A4A882919976CA500A468EF /* Frameworks */,
+				9A4A882819976CA500A468EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A4A882819976CA500A468EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A882719976CA500A468EF /* Boost.app */,
+				9A4A884B19976CA500A468EF /* BoostTests.xctest */,
+				9AA5FC5919A98DC200016504 /* BoostMac.app */,
+				9AA5FC7819A98DC200016504 /* BoostMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A4A882919976CA500A468EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC9D19A98FCD00016504 /* Foundation.framework */,
+				9AA5FC9B19A98FC000016504 /* CoreGraphics.framework */,
+				9AA5FC9919A98FAF00016504 /* CFNetwork.framework */,
+				9AA5FC9719A98FA800016504 /* SystemConfiguration.framework */,
+				9AA5FC9519A98F9D00016504 /* libz.dylib */,
+				9A4A888519976DC600A468EF /* libz.dylib */,
+				9A4A888319976DBA00A468EF /* MobileCoreServices.framework */,
+				9A4A888119976DAC00A468EF /* SystemConfiguration.framework */,
+				9A4A887F19976DA200A468EF /* CFNetwork.framework */,
+				9A4A882A19976CA500A468EF /* Foundation.framework */,
+				9A4A882C19976CA500A468EF /* CoreGraphics.framework */,
+				9A4A882E19976CA500A468EF /* UIKit.framework */,
+				9A4A884C19976CA500A468EF /* XCTest.framework */,
+				9AA5FC5A19A98DC200016504 /* Cocoa.framework */,
+				9AA5FC5C19A98DC200016504 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A4A883019976CA500A468EF /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A886219976D2E00A468EF /* HTTPRequest */,
+				9A4A883919976CA500A468EF /* AppDelegate.h */,
+				9A4A883A19976CA500A468EF /* AppDelegate.m */,
+				9A4A883C19976CA500A468EF /* Main_iPhone.storyboard */,
+				9A4A883F19976CA500A468EF /* Main_iPad.storyboard */,
+				9A4A884219976CA500A468EF /* ViewController.h */,
+				9A4A884319976CA500A468EF /* ViewController.m */,
+				9A4A884519976CA500A468EF /* Images.xcassets */,
+				9A4A883119976CA500A468EF /* Supporting Files */,
+			);
+			path = Boost;
+			sourceTree = "<group>";
+		};
+		9A4A883119976CA500A468EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A883219976CA500A468EF /* Boost-Info.plist */,
+				9A4A883319976CA500A468EF /* InfoPlist.strings */,
+				9A4A883619976CA500A468EF /* main.m */,
+				9A4A883819976CA500A468EF /* Boost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A4A885219976CA500A468EF /* BoostTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A885819976CA500A468EF /* BoostTests.m */,
+				9A4A885319976CA500A468EF /* Supporting Files */,
+			);
+			path = BoostTests;
+			sourceTree = "<group>";
+		};
+		9A4A885319976CA500A468EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A885419976CA500A468EF /* BoostTests-Info.plist */,
+				9A4A885519976CA500A468EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A4A886219976D2E00A468EF /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9A4A888719976E4300A468EF /* Reachability.h */,
+				9A4A888819976E4300A468EF /* Reachability.m */,
+				9A4A886319976D2E00A468EF /* ASIAuthenticationDialog.h */,
+				9A4A886419976D2E00A468EF /* ASIAuthenticationDialog.m */,
+				9A4A886519976D2E00A468EF /* ASICacheDelegate.h */,
+				9A4A886619976D2E00A468EF /* ASIDataCompressor.h */,
+				9A4A886719976D2E00A468EF /* ASIDataCompressor.m */,
+				9A4A886819976D2E00A468EF /* ASIDataDecompressor.h */,
+				9A4A886919976D2E00A468EF /* ASIDataDecompressor.m */,
+				9A4A886A19976D2E00A468EF /* ASIDownloadCache.h */,
+				9A4A886B19976D2E00A468EF /* ASIDownloadCache.m */,
+				9A4A886C19976D2E00A468EF /* ASIFormDataRequest.h */,
+				9A4A886D19976D2E00A468EF /* ASIFormDataRequest.m */,
+				9A4A886E19976D2E00A468EF /* ASIHTTPRequest.h */,
+				9A4A886F19976D2E00A468EF /* ASIHTTPRequest.m */,
+				9A4A887019976D2E00A468EF /* ASIHTTPRequestConfig.h */,
+				9A4A887119976D2E00A468EF /* ASIHTTPRequestDelegate.h */,
+				9A4A887219976D2E00A468EF /* ASIInputStream.h */,
+				9A4A887319976D2E00A468EF /* ASIInputStream.m */,
+				9A4A887419976D2E00A468EF /* ASINetworkQueue.h */,
+				9A4A887519976D2E00A468EF /* ASINetworkQueue.m */,
+				9A4A887619976D2E00A468EF /* ASIProgressDelegate.h */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		9AA5FC5C19A98DC200016504 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC5D19A98DC200016504 /* AppKit.framework */,
+				9AA5FC5E19A98DC200016504 /* CoreData.framework */,
+				9AA5FC5F19A98DC200016504 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9AA5FC6019A98DC200016504 /* BoostMac */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC6C19A98DC200016504 /* AppDelegate.h */,
+				9AA5FC6D19A98DC200016504 /* AppDelegate.m */,
+				9AA5FC6F19A98DC200016504 /* MainMenu.xib */,
+				9AA5FC7219A98DC200016504 /* Images.xcassets */,
+				9AA5FC6119A98DC200016504 /* Supporting Files */,
+			);
+			path = BoostMac;
+			sourceTree = "<group>";
+		};
+		9AA5FC6119A98DC200016504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC6219A98DC200016504 /* BoostMac-Info.plist */,
+				9AA5FC6319A98DC200016504 /* InfoPlist.strings */,
+				9AA5FC6619A98DC200016504 /* main.m */,
+				9AA5FC6819A98DC200016504 /* BoostMac-Prefix.pch */,
+				9AA5FC6919A98DC200016504 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA5FC7D19A98DC200016504 /* BoostMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC8319A98DC200016504 /* BoostMacTests.m */,
+				9AA5FC7E19A98DC200016504 /* Supporting Files */,
+			);
+			path = BoostMacTests;
+			sourceTree = "<group>";
+		};
+		9AA5FC7E19A98DC200016504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5FC7F19A98DC200016504 /* BoostMacTests-Info.plist */,
+				9AA5FC8019A98DC200016504 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A4A882619976CA500A468EF /* Boost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4A885C19976CA500A468EF /* Build configuration list for PBXNativeTarget "Boost" */;
+			buildPhases = (
+				9A4A882319976CA500A468EF /* Sources */,
+				9A4A882419976CA500A468EF /* Frameworks */,
+				9A4A882519976CA500A468EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boost;
+			productName = Boost;
+			productReference = 9A4A882719976CA500A468EF /* Boost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A4A884A19976CA500A468EF /* BoostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4A885F19976CA500A468EF /* Build configuration list for PBXNativeTarget "BoostTests" */;
+			buildPhases = (
+				9A4A884719976CA500A468EF /* Sources */,
+				9A4A884819976CA500A468EF /* Frameworks */,
+				9A4A884919976CA500A468EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4A885119976CA500A468EF /* PBXTargetDependency */,
+			);
+			name = BoostTests;
+			productName = BoostTests;
+			productReference = 9A4A884B19976CA500A468EF /* BoostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AA5FC5819A98DC200016504 /* BoostMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA5FC8919A98DC200016504 /* Build configuration list for PBXNativeTarget "BoostMac" */;
+			buildPhases = (
+				9AA5FC5519A98DC200016504 /* Sources */,
+				9AA5FC5619A98DC200016504 /* Frameworks */,
+				9AA5FC5719A98DC200016504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoostMac;
+			productName = BoostMac;
+			productReference = 9AA5FC5919A98DC200016504 /* BoostMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA5FC7719A98DC200016504 /* BoostMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA5FC8A19A98DC200016504 /* Build configuration list for PBXNativeTarget "BoostMacTests" */;
+			buildPhases = (
+				9AA5FC7419A98DC200016504 /* Sources */,
+				9AA5FC7519A98DC200016504 /* Frameworks */,
+				9AA5FC7619A98DC200016504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA5FC7C19A98DC200016504 /* PBXTargetDependency */,
+			);
+			name = BoostMacTests;
+			productName = BoostMacTests;
+			productReference = 9AA5FC7819A98DC200016504 /* BoostMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A4A881F19976CA500A468EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = smartad;
+				TargetAttributes = {
+					9A4A884A19976CA500A468EF = {
+						TestTargetID = 9A4A882619976CA500A468EF;
+					};
+					9AA5FC7719A98DC200016504 = {
+						TestTargetID = 9A4A882619976CA500A468EF;
+					};
+				};
+			};
+			buildConfigurationList = 9A4A882219976CA500A468EF /* Build configuration list for PBXProject "Boost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A4A881E19976CA500A468EF;
+			productRefGroup = 9A4A882819976CA500A468EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A4A882619976CA500A468EF /* Boost */,
+				9A4A884A19976CA500A468EF /* BoostTests */,
+				9AA5FC5819A98DC200016504 /* BoostMac */,
+				9AA5FC7719A98DC200016504 /* BoostMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A4A882519976CA500A468EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A884119976CA500A468EF /* Main_iPad.storyboard in Resources */,
+				9A4A884619976CA500A468EF /* Images.xcassets in Resources */,
+				9A4A883E19976CA500A468EF /* Main_iPhone.storyboard in Resources */,
+				9A4A883519976CA500A468EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A884919976CA500A468EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A885719976CA500A468EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC5719A98DC200016504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC6519A98DC200016504 /* InfoPlist.strings in Resources */,
+				9AA5FC7319A98DC200016504 /* Images.xcassets in Resources */,
+				9AA5FC6B19A98DC200016504 /* Credits.rtf in Resources */,
+				9AA5FC7119A98DC200016504 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC7619A98DC200016504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC8219A98DC200016504 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A4A882319976CA500A468EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A887819976D2E00A468EF /* ASIDataCompressor.m in Sources */,
+				9A4A884419976CA500A468EF /* ViewController.m in Sources */,
+				9A4A887C19976D2E00A468EF /* ASIHTTPRequest.m in Sources */,
+				9A4A887719976D2E00A468EF /* ASIAuthenticationDialog.m in Sources */,
+				9A4A887B19976D2E00A468EF /* ASIFormDataRequest.m in Sources */,
+				9A4A883B19976CA500A468EF /* AppDelegate.m in Sources */,
+				9A4A887D19976D2E00A468EF /* ASIInputStream.m in Sources */,
+				9A4A883719976CA500A468EF /* main.m in Sources */,
+				9A4A887E19976D2E00A468EF /* ASINetworkQueue.m in Sources */,
+				9A4A887919976D2E00A468EF /* ASIDataDecompressor.m in Sources */,
+				9A4A888919976E4300A468EF /* Reachability.m in Sources */,
+				9A4A887A19976D2E00A468EF /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A884719976CA500A468EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4A885919976CA500A468EF /* BoostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC5519A98DC200016504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC9219A98F1600016504 /* ASIHTTPRequest.m in Sources */,
+				9AA5FC9319A98F1600016504 /* ASIInputStream.m in Sources */,
+				9AA5FC9419A98F1600016504 /* ASINetworkQueue.m in Sources */,
+				9AA5FC8D19A98EA700016504 /* ASIDataCompressor.m in Sources */,
+				9AA5FC8E19A98EA700016504 /* ASIDataDecompressor.m in Sources */,
+				9AA5FC8F19A98EA700016504 /* ASIDownloadCache.m in Sources */,
+				9AA5FC9019A98EA700016504 /* ASIFormDataRequest.m in Sources */,
+				9AA5FC6E19A98DC200016504 /* AppDelegate.m in Sources */,
+				9AA5FC6719A98DC200016504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA5FC7419A98DC200016504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA5FC8419A98DC200016504 /* BoostMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A4A885119976CA500A468EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A4A882619976CA500A468EF /* Boost */;
+			targetProxy = 9A4A885019976CA500A468EF /* PBXContainerItemProxy */;
+		};
+		9AA5FC7C19A98DC200016504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA5FC5819A98DC200016504 /* BoostMac */;
+			targetProxy = 9AA5FC7B19A98DC200016504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A4A883319976CA500A468EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A883419976CA500A468EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A4A883C19976CA500A468EF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A883D19976CA500A468EF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9A4A883F19976CA500A468EF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A884019976CA500A468EF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9A4A885519976CA500A468EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4A885619976CA500A468EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AA5FC6319A98DC200016504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA5FC6419A98DC200016504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AA5FC6919A98DC200016504 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA5FC6A19A98DC200016504 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9AA5FC6F19A98DC200016504 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA5FC7019A98DC200016504 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9AA5FC8019A98DC200016504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA5FC8119A98DC200016504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A4A885A19976CA500A468EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A4A885B19976CA500A468EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A4A885D19976CA500A468EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boost/Boost-Prefix.pch";
+				INFOPLIST_FILE = "Boost/Boost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A4A885E19976CA500A468EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boost/Boost-Prefix.pch";
+				INFOPLIST_FILE = "Boost/Boost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A4A886019976CA500A468EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boost/Boost-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BoostTests/BoostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9A4A886119976CA500A468EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boost/Boost-Prefix.pch";
+				INFOPLIST_FILE = "BoostTests/BoostTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9AA5FC8519A98DC200016504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoostMac/BoostMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BoostMac/BoostMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AA5FC8619A98DC200016504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoostMac/BoostMac-Prefix.pch";
+				INFOPLIST_FILE = "BoostMac/BoostMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AA5FC8719A98DC200016504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoostMac/BoostMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BoostMacTests/BoostMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9AA5FC8819A98DC200016504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boost.app/Boost";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoostMac/BoostMac-Prefix.pch";
+				INFOPLIST_FILE = "BoostMacTests/BoostMacTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A4A882219976CA500A468EF /* Build configuration list for PBXProject "Boost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A885A19976CA500A468EF /* Debug */,
+				9A4A885B19976CA500A468EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4A885C19976CA500A468EF /* Build configuration list for PBXNativeTarget "Boost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A885D19976CA500A468EF /* Debug */,
+				9A4A885E19976CA500A468EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4A885F19976CA500A468EF /* Build configuration list for PBXNativeTarget "BoostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4A886019976CA500A468EF /* Debug */,
+				9A4A886119976CA500A468EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA5FC8919A98DC200016504 /* Build configuration list for PBXNativeTarget "BoostMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA5FC8519A98DC200016504 /* Debug */,
+				9AA5FC8619A98DC200016504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AA5FC8A19A98DC200016504 /* Build configuration list for PBXNativeTarget "BoostMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA5FC8719A98DC200016504 /* Debug */,
+				9AA5FC8819A98DC200016504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A4A881F19976CA500A468EF /* Project object */;
+}

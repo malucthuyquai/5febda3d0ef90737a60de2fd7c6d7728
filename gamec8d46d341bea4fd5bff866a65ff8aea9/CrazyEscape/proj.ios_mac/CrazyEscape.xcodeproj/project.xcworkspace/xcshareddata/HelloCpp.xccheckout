@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D3981F0-66BC-44E5-874B-38B8BD2EC5D6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloCpp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4A68BC0-ADBA-4CF2-9F81-5B2D38AAF1CE</key>
+		<string>https://gamec8d46d341bea4fd5bff866a65ff8aea9.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CrazyEscape/proj.ios_mac/HelloCpp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4A68BC0-ADBA-4CF2-9F81-5B2D38AAF1CE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>D4A68BC0-ADBA-4CF2-9F81-5B2D38AAF1CE</key>
+		<string>https://gamec8d46d341bea4fd5bff866a65ff8aea9.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://gamec8d46d341bea4fd5bff866a65ff8aea9.googlecode.com/svn/trunk/CrazyEscape/proj.ios_mac/HelloCpp.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4A68BC0-ADBA-4CF2-9F81-5B2D38AAF1CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4A68BC0-ADBA-4CF2-9F81-5B2D38AAF1CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MobileGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
