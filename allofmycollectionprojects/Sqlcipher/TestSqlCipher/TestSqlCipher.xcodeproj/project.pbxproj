@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6171851716977B0011135B /* huongdan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A6171841716977B0011135B /* huongdan.txt */; };
+		9ABDD66216F06FE7001F648D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABDD66116F06FE7001F648D /* UIKit.framework */; };
+		9ABDD66416F06FE7001F648D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABDD66316F06FE7001F648D /* Foundation.framework */; };
+		9ABDD66616F06FE7001F648D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABDD66516F06FE7001F648D /* CoreGraphics.framework */; };
+		9ABDD66C16F06FE7001F648D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD66A16F06FE7001F648D /* InfoPlist.strings */; };
+		9ABDD66E16F06FE7001F648D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDD66D16F06FE7001F648D /* main.m */; };
+		9ABDD67216F06FE7001F648D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDD67116F06FE7001F648D /* AppDelegate.m */; };
+		9ABDD67416F06FE7001F648D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD67316F06FE7001F648D /* Default.png */; };
+		9ABDD67616F06FE7001F648D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD67516F06FE7001F648D /* Default@2x.png */; };
+		9ABDD67816F06FE7001F648D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD67716F06FE7001F648D /* Default-568h@2x.png */; };
+		9ABDD67B16F06FE7001F648D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABDD67A16F06FE7001F648D /* ViewController.m */; };
+		9ABDD67E16F06FE8001F648D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD67C16F06FE8001F648D /* ViewController.xib */; };
+		9ABDD68516F06FF3001F648D /* masterdata.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ABDD68416F06FF3001F648D /* masterdata.sqlite3 */; };
+		9ABDD68716F06FFA001F648D /* SqlCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABDD68616F06FFA001F648D /* SqlCipher.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A6171841716977B0011135B /* huongdan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huongdan.txt; sourceTree = SOURCE_ROOT; };
+		9ABDD65E16F06FE7001F648D /* TestSqlCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSqlCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABDD66116F06FE7001F648D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9ABDD66316F06FE7001F648D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9ABDD66516F06FE7001F648D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9ABDD66916F06FE7001F648D /* TestSqlCipher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSqlCipher-Info.plist"; sourceTree = "<group>"; };
+		9ABDD66B16F06FE7001F648D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ABDD66D16F06FE7001F648D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ABDD66F16F06FE7001F648D /* TestSqlCipher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSqlCipher-Prefix.pch"; sourceTree = "<group>"; };
+		9ABDD67016F06FE7001F648D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ABDD67116F06FE7001F648D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ABDD67316F06FE7001F648D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9ABDD67516F06FE7001F648D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9ABDD67716F06FE7001F648D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9ABDD67916F06FE7001F648D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ABDD67A16F06FE7001F648D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ABDD67D16F06FE8001F648D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9ABDD68416F06FF3001F648D /* masterdata.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = masterdata.sqlite3; path = ../../SqlCiphers/SqlCipher/FMDB/masterdata.sqlite3; sourceTree = "<group>"; };
+		9ABDD68616F06FFA001F648D /* SqlCipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SqlCipher.framework; path = ../SqlCiphers/build/Framework/SqlCipher.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABDD65B16F06FE7001F648D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABDD66216F06FE7001F648D /* UIKit.framework in Frameworks */,
+				9ABDD66416F06FE7001F648D /* Foundation.framework in Frameworks */,
+				9ABDD66616F06FE7001F648D /* CoreGraphics.framework in Frameworks */,
+				9ABDD68716F06FFA001F648D /* SqlCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ABDD65516F06FE7001F648D = {
+			isa = PBXGroup;
+			children = (
+				9ABDD66716F06FE7001F648D /* TestSqlCipher */,
+				9ABDD66016F06FE7001F648D /* Frameworks */,
+				9ABDD65F16F06FE7001F648D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABDD65F16F06FE7001F648D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABDD65E16F06FE7001F648D /* TestSqlCipher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABDD66016F06FE7001F648D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ABDD68616F06FFA001F648D /* SqlCipher.framework */,
+				9ABDD66116F06FE7001F648D /* UIKit.framework */,
+				9ABDD66316F06FE7001F648D /* Foundation.framework */,
+				9ABDD66516F06FE7001F648D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ABDD66716F06FE7001F648D /* TestSqlCipher */ = {
+			isa = PBXGroup;
+			children = (
+				9A6171841716977B0011135B /* huongdan.txt */,
+				9ABDD68416F06FF3001F648D /* masterdata.sqlite3 */,
+				9ABDD67016F06FE7001F648D /* AppDelegate.h */,
+				9ABDD67116F06FE7001F648D /* AppDelegate.m */,
+				9ABDD67916F06FE7001F648D /* ViewController.h */,
+				9ABDD67A16F06FE7001F648D /* ViewController.m */,
+				9ABDD67C16F06FE8001F648D /* ViewController.xib */,
+				9ABDD66816F06FE7001F648D /* Supporting Files */,
+			);
+			path = TestSqlCipher;
+			sourceTree = "<group>";
+		};
+		9ABDD66816F06FE7001F648D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABDD66916F06FE7001F648D /* TestSqlCipher-Info.plist */,
+				9ABDD66A16F06FE7001F648D /* InfoPlist.strings */,
+				9ABDD66D16F06FE7001F648D /* main.m */,
+				9ABDD66F16F06FE7001F648D /* TestSqlCipher-Prefix.pch */,
+				9ABDD67316F06FE7001F648D /* Default.png */,
+				9ABDD67516F06FE7001F648D /* Default@2x.png */,
+				9ABDD67716F06FE7001F648D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABDD65D16F06FE7001F648D /* TestSqlCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABDD68116F06FE8001F648D /* Build configuration list for PBXNativeTarget "TestSqlCipher" */;
+			buildPhases = (
+				9ABDD65A16F06FE7001F648D /* Sources */,
+				9ABDD65B16F06FE7001F648D /* Frameworks */,
+				9ABDD65C16F06FE7001F648D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSqlCipher;
+			productName = TestSqlCipher;
+			productReference = 9ABDD65E16F06FE7001F648D /* TestSqlCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABDD65616F06FE7001F648D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LyGV;
+			};
+			buildConfigurationList = 9ABDD65916F06FE7001F648D /* Build configuration list for PBXProject "TestSqlCipher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ABDD65516F06FE7001F648D;
+			productRefGroup = 9ABDD65F16F06FE7001F648D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABDD65D16F06FE7001F648D /* TestSqlCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABDD65C16F06FE7001F648D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABDD66C16F06FE7001F648D /* InfoPlist.strings in Resources */,
+				9ABDD67416F06FE7001F648D /* Default.png in Resources */,
+				9ABDD67616F06FE7001F648D /* Default@2x.png in Resources */,
+				9ABDD67816F06FE7001F648D /* Default-568h@2x.png in Resources */,
+				9ABDD67E16F06FE8001F648D /* ViewController.xib in Resources */,
+				9ABDD68516F06FF3001F648D /* masterdata.sqlite3 in Resources */,
+				9A6171851716977B0011135B /* huongdan.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABDD65A16F06FE7001F648D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABDD66E16F06FE7001F648D /* main.m in Sources */,
+				9ABDD67216F06FE7001F648D /* AppDelegate.m in Sources */,
+				9ABDD67B16F06FE7001F648D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ABDD66A16F06FE7001F648D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABDD66B16F06FE7001F648D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9ABDD67C16F06FE8001F648D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABDD67D16F06FE8001F648D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ABDD67F16F06FE8001F648D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ABDD68016F06FE8001F648D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABDD68216F06FE8001F648D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SqlCiphers/build/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSqlCipher/TestSqlCipher-Prefix.pch";
+				INFOPLIST_FILE = "TestSqlCipher/TestSqlCipher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9ABDD68316F06FE8001F648D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SqlCiphers/build/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSqlCipher/TestSqlCipher-Prefix.pch";
+				INFOPLIST_FILE = "TestSqlCipher/TestSqlCipher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABDD65916F06FE7001F648D /* Build configuration list for PBXProject "TestSqlCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABDD67F16F06FE8001F648D /* Debug */,
+				9ABDD68016F06FE8001F648D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABDD68116F06FE8001F648D /* Build configuration list for PBXNativeTarget "TestSqlCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABDD68216F06FE8001F648D /* Debug */,
+				9ABDD68316F06FE8001F648D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ABDD65616F06FE7001F648D /* Project object */;
+}

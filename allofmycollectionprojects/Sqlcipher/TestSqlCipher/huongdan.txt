@@ -1,0 +1,47 @@
+
+Instruction
+Đây là thư viện hỗ trợ truy xuất thông tin dữ liệu file sqlite (đã được mã hoá bằng key) trên ios 
+trong thư viện này có kết hợp với thư viện FMDatabase nên có thể dùng các function của thư viện này
+như executeQuery, executeUpdate, executeInsert ...
+ngoài ra có bổ xung thêm hàm fetchDataAsArray để tiện cho việc truy xuất dữ liệu đơn giản hơn
+các trường hợp truy xuất dữ liệu bị lỗi thì đều trả về kết quả là null
+
+1. add SqlCipher.framework to projects (remember tick "Copy items into group folder")
+
+2. import <SqlCipher/SqlCipher.h> to your class 
+
+3. see sample to know how to use (visit: https://github.com/ccgus/fmdb for more infomation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////
+Comment by HoaPTT:
+1. Tutorial:
+- Build OK.
+- Hướng dẫn sử dụng nên bổ sung thêm: mô tả của class SqlCipher (subclass của FMDatabase, ngoài hàm có sẵn còn thêm hàm fetchDataAsArray….)
+
+2. Framework designed:
+- Protocol function dễ sử dụng.
+- fetchDataAsArray của class SqlCipher nên có control error.
+
+3. Crash/Memory leak: ko

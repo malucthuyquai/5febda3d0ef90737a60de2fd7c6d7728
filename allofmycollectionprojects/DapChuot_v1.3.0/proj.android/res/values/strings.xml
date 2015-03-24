@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Beat Mouse</string>
+    <string name="fbshare_string2">http://appstore.vn/android/details?id=mobi.smartad.beatmouse \n</string>
+    <string name="fbshare_string">https://play.google.com/store/apps/details?id=mobi.smartad.beatmouse \n</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SqlCipher-ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SqlCipher-simulator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SqlCipher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9ABDD54C16F03882001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ABDD55D16F03883001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ABDD57816F038F2001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ABDD58316F0391E001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ABDD5A916F03EB3001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9ABDD60E16F06C60001F648D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

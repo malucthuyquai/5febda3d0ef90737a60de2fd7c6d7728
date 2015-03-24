@@ -1,0 +1,45 @@
+//
+// Prefix header for all source files of the 'iphone' target in the 'iphone' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define  appController          ((AppController*)[UIApplication sharedApplication].delegate)
+
+//Log with function name (only debug mode)
+#ifdef DEBUG
+#define NSLog(format, ...) NSLog(@"%s:%@", __FUNCTION__, [NSString stringWithFormat:format, ## __VA_ARGS__]);
+#else
+#define NSLog(format, ...) 
+#endif
+
+//Server - API
+#define kServer             @"http://mirror.ai-t.mobi:88"
+#define kApiCheckAds        @"/eggseed/getadmobdisableflag"
+//Web authen
+#define kUserName           @"mirror"
+#define kPassword           @"$MirrO@3"
+
+//Admob
+#define kAdmobSiteId        @"a15303856501c5d"
+
+//1 - AppStore, 2 - AppOta
+#define kAppStore           1
+
+//Flurry analytics
+#define kFlurryAppKey                   @"CYRDBF63D7554CV54JXR"
+
+//Charboost
+#define kcbAppId            @"52bd63e52d42da5c9f68bb4c"
+#define kcbSignature        @"6243612863b8bdf8c92eaf7a90f2652e6b2e4c55"
+
+#define kNotificationAdmobShow          "notificationadmobisshow"
+#define kNotificationAdmobHide          "notificationadmobishide"
+#define kNotificationShowChartBoost     "notificationshowcharboost"
+
+
+
+
